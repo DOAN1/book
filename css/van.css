@@ -1,0 +1,153 @@
+
+
+
+/* يخفي الشريط على الشاشات الكبيرة */
+.mobile-bottom-nav {
+  display: none;
+}
+
+/* يُظهره فقط على الشاشات الصغيرة */
+@media (max-width: 768px) {
+  .mobile-bottom-nav {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    border-top: 1px solid #ccc;
+    justify-content: space-around;
+    align-items: center;
+    z-index: 1000;
+    box-shadow: 0 -1px 5px rgba(0,0,0,0.1);
+  }
+
+  .mobile-bottom-nav .nav-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex: 1;
+    padding: 5px;
+  }
+
+  .mobile-bottom-nav .nav-item img {
+    width: 24px;
+    height: 24px;
+  }
+
+  /* خيار: إضافة اسم أسفل الأيقونة */
+  /*
+  .mobile-bottom-nav .nav-item span {
+    font-size: 10px;
+    color: #333;
+    margin-top: 3px;
+  }
+  */
+}
+.guest-profile-container {
+  max-width: 500px;
+  margin: 80px auto;
+  padding: 20px;
+  text-align: center;
+  background-color: #fff;
+  border-radius: 12px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.05);
+  font-family: "Segoe UI", sans-serif;
+}
+
+.profile-header .avatar {
+  width: 100px;
+  height: 100px;
+  margin-bottom: 15px;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+
+.profile-header h2 {
+  margin: 10px 0 5px;
+  color: #333;
+}
+
+.profile-header p {
+  font-size: 14px;
+  color: #666;
+  margin-bottom: 20px;
+}
+
+.action-buttons .btn {
+  display: inline-block;
+  padding: 10px 20px;
+  margin: 10px 8px;
+  border-radius: 8px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: 0.3s;
+}
+
+.btn.login {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.btn.signup {
+  background-color: #2196F3;
+  color: white;
+}
+
+.btn:hover {
+  opacity: 0.9;
+}
+
+.guest-links {
+  margin-top: 30px;
+}
+
+.guest-links a {
+  display: inline-block;
+  margin: 5px 10px;
+  color: #0077cc;
+  text-decoration: none;
+  font-size: 14px;
+}
+
+.guest-links a:hover {
+  text-decoration: underline;
+}
+
+.audio-access-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #fdfdfd;
+  padding: 20px;
+  font-family: "Segoe UI", sans-serif;
+}
+
+.access-box {
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  padding: 30px 25px;
+  text-align: center;
+  max-width: 400px;
+  box-shadow: 0 0 15px rgba(0,0,0,0.05);
+}
+
+.book-section {
+  margin: 40px 20px;
+}
+
+.section-title {
+  font-size: 22px;
+  margin-bottom: 15px;
+  color: #333;
+  font-weight: bold;
+  padding-right: 10px;
+}
+
+span{
+  color: black;
+}
