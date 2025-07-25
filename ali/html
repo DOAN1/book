@@ -1,82 +1,0 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>وجهة كتب</title>  
-  <link rel="stylesheet" href="./css/haeder.css">
-  <link rel="stylesheet" href="./css/main.css">
-  <link rel="stylesheet" href="./css/style.css">
-  <link rel="stylesheet" href="./css/van.css">
-  <link rel="stylesheet" href="./css/profile.css">
-</head>
-   <body>
-   <header>
-       
-  <div class="search-box">
-    <input type="text" placeholder="ابحث هنا...">
-    <button>🔍</button>
-    <button class="list" type="button"></button>
-  </div>
- 
-  </header>
-  <main>
-    
-  </main>
- <nav class="mobile-bottom-nav">
-  <a class="nav-item" href="/home">
-    <img src="/icons/book.svg" alt="home" /> <span>book</span>
-  </a>
-  <a class="nav-item" href="/pages/سماع.html">
-    <img src="/icons/headphones.svg" alt="سماع" /> <span>سماع</span>
-  </a>
-  <a class="nav-item" href="/publish">
-    <img src="/icons/plus-lg.svg" alt="publish" /> <span>مشر</span>
-  </a>
-  <a class="nav-item" href="/pages/inbox.html">
-    <img src="/icons/inboxes.svg" alt="inbox" /> <span>inbox</span>
-  </a>
-  <a class="nav-item" href="/pages/profile.html">
-    <img src="/icons/person-plus-fill.svg" alt="profile" /> <span>profile</span>
-  </a>
-</nav>
-
-<ul>
-  <li><a class="كتاب" href="/index.html"><img src="/icons/book.svg" alt="كتاب"></a></li>
-  <li><a class="سماع" href="/pages/سماع.html"><img src="/icons/headphones.svg" alt="سماع"></a></li>
-  <li> <a class="صندوق" href="/pages/inbox.html"><img src="/icons/inboxes.svg" alt=""> </a></li>
-  <li><a class="حسابي" href="/pages/profile.html"></a> <img src="/icons/person-plus-fill.svg" alt=""></li>
-</ul>
- 
-
-
-   <div class="book-section">
-  <h2 class="section-title"> كتب علميه</h2>
-  <div class="book-carousel">
-    <!-- بطاقة كتاب -->
-    <div class="book-card">
-      <img src="/images/12.jpg" alt="عنوان الكتاب" />
-      <p class="book-title">العقل الفضولي</p>
-    </div>
-
-    <div class="book-card">
-      <img src="/images/1.webp" alt="عنوان الكتاب" />
-      <p class="book-title">تاريخ العلوم</p>
-    </div>
-
-    <div class="book-card">
-      <img src="/images/1.png" alt="عنوان الكتاب" />
-      <p class="book-title">فيزياء الكون</p>
-    </div>
-    <div class="book-card">
-      <img src="/images/1.png" alt="عنوان الكتاب" />
-      <p class="book-title">فيزياء الكون</p>
-    </div>
-
-    <!-- المزيد من الكتب -->
-  </div>
-</div>
-
-
-    </body>
-</html>
