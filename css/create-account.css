@@ -1,0 +1,63 @@
+div{
+    border: solid;
+    background-color: rgb(184, 176, 167);
+    border-radius: 80px 80px 80px 80px;
+    padding: 10px 80px 10px 10px;
+}
+.create{
+border: solid rgb(226, 207, 207);
+margin-left: 150px;
+margin-right: 90px;
+border-radius: 100px;
+background-color: rgb(245, 240, 232);
+}
+.text{
+
+border: solid rgb(209, 161, 161);
+margin-right: 150px;
+margin-left: 110px;
+margin-bottom: 30px;
+padding: 10px 20px 10px 20px ;
+border-radius: 100px;
+}
+.email{
+    border: solid rgb(211, 171, 171);
+margin-right: 150px;
+margin-left: 110px;
+margin-bottom: 30px;
+border-radius: 100px;
+padding: 10px 20px 10px 20px ;
+border-radius: 100px;
+}
+.password{
+border: solid rgb(228, 160, 160);
+margin-right: 150px;
+margin-left: 105px;
+margin-bottom: 30px;
+padding: 10px 30px 10px 30px ;
+border-radius: 100px;
+}
+.date{
+border: solid rgb(192, 161, 161);
+margin-right: 130px;
+margin-left: 140px;
+margin-bottom: 30px;
+border-radius: 100px;
+padding: 10px 30px 10px 30px ;
+}
+.submit{
+border: solid rgb(223, 197, 197);
+margin-right: 100px;
+margin-left: 185px;
+margin-bottom: 5px;
+border-radius: 100px;
+padding: 10px 30px 10px 30px;
+}
+  input::placeholder {
+
+  color: rgb(20, 2, 2);
+}
+
+
+
+

@@ -1,0 +1,33 @@
+div{
+    border: solid rgb(228, 195, 195);
+    padding: 150px;
+    background-color: rgb(215, 233, 227);
+}
+h1{
+
+}
+
+.email{
+padding: 10px;
+margin: 10px 10px 20px 10px;
+border-radius: 100px;
+}
+.passowrd{
+padding: 10px;
+margin: 10px 10px 20px 10px;
+border-radius: 100px;
+}
+.submit{
+    border: solid black;
+    border-radius: 100px ;
+    background-color: rgb(236, 223, 205);
+    padding: 10px 10px 10px 20px;
+
+}
+.back{
+    background-image: url(/icons/);
+    background-repeat: no-repeat;
+    border: solid rgb(78, 76, 76);
+    padding: 20px;
+    border-radius: 100px;
+}

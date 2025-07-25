@@ -1,0 +1,83 @@
+header{
+    border: solid rgb(252, 242, 242);
+    background-color: rgb(255, 252, 249);
+    padding: 10px 10px 10px 10px;
+
+}
+.list{
+    background-image: url(/icons/list.svg);
+    background-repeat: no-repeat; padding: 10px ;
+    border: solid bisque;
+    border-radius: 5px 5px ;
+    
+
+}
+
+.search{
+    margin-left: 200px;
+    border-radius: 10px;
+
+}
+section{
+   
+    border: solid rgb(247, 247, 236);
+    background-color: rgb(247, 247, 229);
+}
+h1{
+    padding-left: 180px;
+
+}
+img {
+  display: block;
+  margin: 0 auto; /* يوسّط الصورة أفقياً */
+  width: 150px;
+  height: 150px;
+  border-radius: 50%; /* يجعل الصورة دائرية */
+  border: 3px solid #fff; /* إطار أبيض حول الصورة */
+  object-fit: cover; /* يحافظ على الأبعاد داخل الدائرة */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* ظل خفيف */
+}
+
+div{
+border: solid rgba(248, 245, 241, 0.979);
+background-color: rgba(240, 234, 234, 0.521);
+border-radius: 10px;
+}
+.Yourposts{
+    background-image: url(/icons/graph-up.svg);
+    background-repeat: no-repeat;
+    padding-left:  25px;
+    padding-right: 10px;
+    border-radius: 20px;
+    border: 3px solid rgb(228, 227, 226) ;
+}
+.statistics{
+    background-image: url(/icons/credit-card.svg);
+    margin-bottom: 10px;
+    background-repeat: no-repeat;
+    width: 100px;
+    margin: 0 auto;
+    display: block;
+    border: 3px solid rgb(187, 207, 207) ;
+    background-color: hwb(0 85% 9%);
+    border-radius: 100px
+    
+}
+.audio{
+
+ background-image: url(/icons/headphones.svg);
+ background-repeat: no-repeat;
+ padding-left:30px;
+ border-radius: 10px;
+ border-color: rgb(243, 248, 248);
+}
+.book{
+    background-image: url(/icons/book.svg);
+    background-repeat: no-repeat;
+    padding-left: 30px;
+    border-radius: 10px;
+    border-color: aliceblue;
+
+
+}
+

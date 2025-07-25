@@ -1,0 +1,45 @@
+header{
+  border: rgb(143, 133, 94);
+}
+/* تنسيق الصندوق الذي يحتوي على خانة البحث وزر البحث */
+.search-box {
+  position: relative;
+  width: 300px;
+  left: 140px;
+}
+
+/* تنسيق خانة الإدخال */
+.search-box input[type="text"] {
+  width: 100%;
+  padding: 10px 40px 10px 10px; /* نترك مساحة لزر البحث داخل الصندوق */
+  box-sizing: border-box;
+  border: 10px 10px ;
+  border-radius: 60px 60px 60px 60px;
+  margin-top: 1px 0px;
+
+}
+
+/* تنسيق زر البحث */
+.search-box button {
+  position: absolute;
+  top: 50%;
+  right: 1px;
+  transform: translateY(-50%);
+  background-color: #b7bfc5;
+  color: white;
+  border: none;
+  padding: 9px 10px;
+  cursor: pointer;
+  border-radius: 0px 60px 60px 10px;
+}
+
+
+
+.list{
+  background-image: url(/icons/list.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  margin-right: 400px; 
+
+
+}
